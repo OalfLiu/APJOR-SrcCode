@@ -1,0 +1,1 @@
+java -jar OCBAGP.jar -from app/JSP/DJSP_ERC.params -p stat.file=/log/Result_500Ind_15R.stat -p stat.child.0.file=/log/Details_500Ind_15R.stat

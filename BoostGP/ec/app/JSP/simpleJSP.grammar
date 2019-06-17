@@ -1,0 +1,6 @@
+<start> ::= <op>
+<op> ::= (+ <op> <op>) | (if <op> <op> <op>)
+<op> ::=  (- <op> <op>) 
+<op> ::= (* <op> <op>)
+<op> ::= (/ <op> <op>)
+<op> ::= (PT) | (RPT) | (SLACK)

@@ -1,0 +1,80 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+
+jobs = 1
+parent.0 = TestDJSPP.params
+
+seed.0 = 20111205
+
+#The number of population size
+pop.subpop.0.size = 100
+
+#The max generations
+generations = 1
+
+eval = ec.app.JSP.OCBAEvaluator
+
+#If use Normalization 0:not in use 1: in use
+eval.Normalization = 1
+
+gp.tree.print-style = c
+gp.tree.printTwoArgumentNonterminalsAsOperatorsInC = false
+
+stat = ec.simple.SimpleStatistics
+#stat = ec.gp.koza.KozaShortStatistics
+stat.do-per-generation-description = true
+stat.file = /log/Result_100IND_1Gen_N+D+20R+OCBA.stat
+
+#Duplication Removal (new added parameter 2017.09.14)
+pop.subpop.0.duplicate-removals = true
+pop.subpop.0.duplicate-removals-tries = 10000
+
+pop.subpop.0.species.pipe.num-sources = 2
+pop.subpop.0.species.pipe.source.0 = ec.app.JSP.DuplicateRemovalCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.prob = 0.9
+pop.subpop.0.species.pipe.source.1 = ec.app.JSP.DuplicateRemovalMutationPipeline
+pop.subpop.0.species.pipe.source.1.prob = 0.1
+
+stat.num-children = 1
+stat.child.0 = ec.app.JSP.MyGPStatistics
+#stat.child.0 = ec.gp.koza.KozaShortStatistics
+stat.child.0.do-depth = true
+stat.child.0.do-time = true
+stat.child.0.do-size = true
+stat.child.0.file = /log/Details_100IND_1Gen_N+D+20R+OCBA.stat
+
+eval.problem = ec.app.JSP.OCBA_JSP
+eval.problem.data = ec.app.JSP.DoubleData
+
+# The tree uses an ec.gp.koza.HalfBuilder to create
+# itself initially.
+# HalfBuilder will pick GROW half the time and FULL
+# the other half, with a ramp from 2 to 6 inclusive.
+# By ramp we mean that it first picks a random number between
+# 2 and 6 inclusive.  This then becomes the *maximum* tree size
+# (for the FULL approach, it's the tree size of the tree, for
+# GROW, the tree can get no bigger than this)
+
+gp.tc.0.init = ec.gp.koza.HalfBuilder
+
+# We set the default for HalfBuilder to be a ramp of 2--6,
+# with a grow probability of 0.5
+gp.koza.half.min-depth = 2
+gp.koza.half.max-depth = 6
+gp.koza.half.growp = 0.5
+
+#Parsimony Pressure
+
+
+#Simulation setting
+eval.Simulation.Replications = 20
+eval.Simulation.Seed = 20111205
+eval.Simulation.NumOfJobs = 2500
+#1: Mean flowtime 2: CMax 3: TT(Total Tardiness) 4 TWT(Total Weighted Tardiness)
+eval.Simulation.Objective = 1   
+eval.Simulation.UtilizationLevel = 0.95
+eval.Simulation.NumofMachines = 10
+eval.Simulation.DuedateFactor = 4.0
+eval.Simulation.IterationOCAPBudget = 10

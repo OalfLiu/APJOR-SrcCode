@@ -1,0 +1,950 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5528.0 Adjusted=1.8086453246518358E-4 Hits=0
+Tree 0:
+ (+ RM RT)
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5410.0 Adjusted=1.8480872297172427E-4 Hits=0
+Tree 0:
+ (- (+ (- (* W W) (- -0.5314945358175787 PR))
+     (+ (- RJ (+ W W)) RT)) ((-1*) (/ (- RT PR)
+     (* PR RM))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5410.0 Adjusted=1.8480872297172427E-4 Hits=0
+Tree 0:
+ (- (+ (- (* W W) (- -0.5314945358175787 PR))
+     (+ (- RJ (+ W W)) RT)) ((-1*) (/ (/ RM -0.5774790649794177)
+     (* PR RM))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5380.0 Adjusted=1.8583906337112061E-4 Hits=0
+Tree 0:
+ (- (+ (- (* W W) (- -0.5314945358175787 PR))
+     (+ (- RJ (+ W W)) RT)) ((-1*) (/ (- RT PR)
+     (+ (- RT RJ) (- RO RT)))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5184.0 Adjusted=1.9286403085824494E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ RM PR))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5184.0 Adjusted=1.9286403085824494E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (+ (- (* W W) (- -0.5314945358175787
+     PR)) (+ (- RJ (+ W W)) RT)) ((-1*) (/ (-
+     RT PR) (* PR (- (- (+ PR RM) RO) (+ -0.31548715759408186
+     RT))))))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5184.0 Adjusted=1.9286403085824494E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (+ (- (* W W) (- -0.5314945358175787
+     PR)) (+ (- RJ (+ W W)) RT)) ((-1*) (/ (-
+     RT PR) (* PR (- (- RT RO) (+ -0.31548715759408186
+     RT))))))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5164.0 Adjusted=1.936108422071636E-4 Hits=0
+Tree 0:
+ (- (+ (- (* W W) (- -0.5314945358175787 PR))
+     (+ (- RJ (+ W W)) RT)) ((-1*) (/ (/ RM -0.5774790649794177)
+     (/ (- (+ (- (* W W) (- -0.5314945358175787
+         PR)) (+ (- RJ (+ (- RJ (/ RM RT)) RT)) RT))
+         ((-1*) (/ (- RT PR) (* PR RJ)))) W))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5164.0 Adjusted=1.936108422071636E-4 Hits=0
+Tree 0:
+ (- (+ (- (* W W) (- -0.5314945358175787 PR))
+     (+ (- RJ (+ W W)) RT)) ((-1*) (/ (/ RM -0.5774790649794177)
+     (/ (- (+ (- (* W W) (- -0.5314945358175787
+         PR)) (+ (- RJ (+ (- RJ (/ RM (+ W (+ RM RT))))
+         RT)) RT)) ((-1*) (/ (- RT PR) (* PR RJ))))
+         W))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5164.0 Adjusted=1.936108422071636E-4 Hits=0
+Tree 0:
+ (- (+ (- (* W W) (- -0.5314945358175787 PR))
+     (+ (- RJ (+ W W)) RT)) ((-1*) (/ (/ RM -0.5774790649794177)
+     (/ (- (+ (- (* W W) (- -0.5314945358175787
+         PR)) (+ (- RJ (+ (- RJ (/ RM RT)) RT)) RT))
+         ((-1*) (/ (- RT PR) (* PR RJ)))) W))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5164.0 Adjusted=1.936108422071636E-4 Hits=0
+Tree 0:
+ (- (+ (- (* W W) (- -0.5314945358175787 PR))
+     (+ (- RJ (+ W W)) RT)) ((-1*) (/ (/ RM -0.5774790649794177)
+     (/ (- (+ (- (* W W) (- -0.5314945358175787
+         PR)) (+ (- RJ (+ (- RJ (+ W W)) RT)) RT))
+         ((-1*) (/ (- RT PR) (* ((-1*) RJ) RJ))))
+         W))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5158.0 Adjusted=1.938360147315371E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (+ (- (/ (+ (+ (+ RM
+     RT) (- W RO)) RT) ((-1*) RJ)) (- -0.5314945358175787
+     PR)) (+ (- RJ (+ W W)) RT)) ((-1*) (/ (+
+     RM RT) (* PR (- (- PR RO) (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ (+ W W))
+     RT)))))))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5158.0 Adjusted=1.938360147315371E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT -0.3372998718940823)
+     RO) RT))) ((-1*) W)) ((-1*) (/ ((-1*) (+
+     (+ RT (+ RM RT)) (+ RJ PR))) (* PR (- (-
+     RT RO) (+ -0.31548715759408186 (- (/ (- (/
+     (+ RJ RT) PR) ((-1*) (/ RJ W))) (+ (+ W RJ)
+     (+ W RJ))) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))))))))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5158.0 Adjusted=1.938360147315371E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (/ RM PR))
+     ((-1*) (- (- (- (+ (- (* W W) (- -0.5314945358175787
+         PR)) (+ (- RJ (+ W W)) RT)) ((-1*) (/ (-
+         (- RT -0.3372998718940823) RO) (* PR RM))))
+         ((-1*) W)) ((-1*) (/ (- (+ (- RJ PR) (+ (-
+         RJ PR) (+ PR RT))) ((-1*) RT)) (* PR (- (-
+         RT RO) RJ)))))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5146.0 Adjusted=1.9428793471925395E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) W)) ((-1*) (/ ((-1*) (+ (+ RT
+     (+ RM RT)) (+ RJ PR))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5146.0 Adjusted=1.9428793471925395E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) W)) ((-1*) (/ ((-1*) (+ (+ RT
+     (+ RM RT)) (+ RJ PR))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5146.0 Adjusted=1.9428793471925395E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) W)) ((-1*) (/ ((-1*) (+ (+ RT
+     (+ RM RT)) (+ RJ PR))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5146.0 Adjusted=1.9428793471925395E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) W)) ((-1*) (/ ((-1*) (+ (+ RT
+     (+ RM RT)) (/ (+ (- RJ ((-1*) (/ (+ (+ (+
+     (/ RM RT) (+ RJ PR)) (+ ((-1*) W) (/ RM PR)))
+     RT) (* PR RJ)))) RT) (* PR RJ)))) (* PR (-
+     (- RT RO) (+ -0.31548715759408186 (- (- RJ
+     (+ (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT
+     -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5146.0 Adjusted=1.9428793471925395E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- ((-1*)
+     W) (- -0.5314945358175787 PR)) (+ (- RJ (+
+     W W)) RT)) ((-1*) (/ (- (- RT (+ RM RT))
+     RO) RT))) ((-1*) W)) ((-1*) (/ ((-1*) (+
+     (+ RT (+ RM RT)) (+ RJ PR))) (* PR (- (-
+     RT RO) (+ -0.31548715759408186 (- (- RJ (+
+     (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))))))))))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     (+ (- RT -0.3372998718940823) (+ W RJ))))
+     W) RO) (* PR RM)))) ((-1*) (/ ((-1*) (+ (+
+     RT (+ RM RT)) (+ RJ (+ RM RT)))) (* PR (-
+     (- RT RO) (+ -0.31548715759408186 (- (- RJ
+     (+ (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT
+     -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     (- (+ (- ((-1*) W) (- -0.5314945358175787
+         PR)) (+ (- RJ (+ W W)) RT)) ((-1*) (/ (-
+         (- RT (- -0.5314945358175787 PR)) RO) RT)))))
+     W) RO) (* PR RM)))) ((-1*) (/ ((-1*) (+ (+
+     RT (+ RM RT)) (+ RJ (+ RM RT)))) (* PR (-
+     (- RT RO) (+ -0.31548715759408186 (- (- RJ
+     (+ (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT
+     -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ (+ (+ (+ RM RT) (- W RO)) RT)
+     ((-1*) RJ)) (+ RJ PR)) (+ ((-1*) W) (/ RM
+     PR))) ((-1*) (- (- (- (+ (- ((-1*) W) (-
+     -0.5314945358175787 PR)) (+ (- RJ (+ W W))
+     RT)) ((-1*) (/ (- (- RT (- -0.5314945358175787
+     PR)) RO) RT))) ((-1*) W)) ((-1*) (/ ((-1*)
+     (* PR RM)) (* PR (- (- RT RO) (+ -0.31548715759408186
+     (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+         (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (* W W)) RO)
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     (- (+ (- ((-1*) W) (- -0.5314945358175787
+         PR)) (+ (- RJ (+ W W)) RT)) W))) W) RO) (*
+     PR RM)))) ((-1*) (/ ((-1*) (+ (+ RT (+ RM
+     RT)) (+ RJ (+ RM RT)))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     (- (+ -0.5314945358175787 (+ (- RJ (+ W W))
+         RT)) ((-1*) (/ (- (- RT (- -0.5314945358175787
+         PR)) RO) RT))))) W) RO) (* PR RM)))) ((-1*)
+     (/ ((-1*) (+ (+ RT (+ RM RT)) (+ RJ (+ RM
+         RT)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     (+ (- RT -0.3372998718940823) (+ W RJ))))
+     W) RO) (* PR RM)))) ((-1*) (/ ((-1*) (+ (+
+     RT (+ RM RT)) (+ RJ (+ W W)))) (* PR (- (-
+     RT RO) (+ -0.31548715759408186 (- (- RJ (+
+     (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))))))))))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     (- (+ (+ RM RT) (+ RT RT)) W))) W) RO) (*
+     PR RM)))) ((-1*) (/ ((-1*) (+ (+ RT (+ RM
+     RT)) (+ RJ (+ RM RT)))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (+ (+ RM RT) RT) RT) ((-1*)
+         RJ)) (- -0.5314945358175787 PR)) (+ (- RJ
+         (+ W W)) RT)) (* PR RJ)))) RT)) ((-1*) (/
+     (- (- (- RJ (/ RM RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ)))) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ (+ RT (+ RM (- -0.5314945358175787 PR)))
+         (+ RJ (+ W RJ)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+     (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+         (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- -0.5314945358175787
+     PR) RO) RT))) ((-1*) (/ (- (* (- (+ RT RJ)
+     ((-1*) (+ (- RT -0.3372998718940823) (+ (/
+         RM RT) (+ RJ PR))))) W) RO) (* PR RM))))
+     ((-1*) (/ ((-1*) (+ (+ RT (+ RM RT)) (+ RJ
+         (+ RM RT)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (- RT RO)) RO)
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     (+ (- (+ RT (+ RM (+ RJ RT))) -0.3372998718940823)
+         (+ (- RJ (+ W W)) RT)))) W) RO) (* PR RM))))
+     ((-1*) (/ ((-1*) (+ (+ RM RT) (+ RJ (+ RM
+         RT)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (- -0.5314945358175787 PR) ((-1*)
+         RJ)) (- -0.5314945358175787 PR)) (+ (+ (-
+         (* W W) (- -0.5314945358175787 PR)) (+ (-
+         RJ (+ W W)) RT)) RT)) (* PR RJ)))) RT)) ((-1*)
+     (/ (- (- (/ (- (/ (* PR RJ) PR) ((-1*) (/
+         RJ W))) ((-1*) W)) ((-1*) (+ (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ)))))
+         (+ W RJ)))) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ (+ RT (- RT (/ RM RT))) (+ RJ (+ W RJ))))
+     (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) W)) ((-1*) (/ (- (* (- (+
+     RT RJ) ((-1*) (- (+ (/ RM PR) (+ (- RJ (+
+     W W)) RT)) ((-1*) (* W W))))) W) RO) (* PR
+     RM)))) ((-1*) (/ ((-1*) (+ (+ (+ W RJ) (+
+     RM RT)) (+ RJ (+ RM RT)))) (* PR (- (- RT
+     RO) (+ -0.31548715759408186 (- (- RJ (+ (-
+     RJ (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))))))))))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (+ (+ RM RT) (- W RO)) RT)
+         ((-1*) RJ)) (- -0.5314945358175787 PR)) (+
+         (+ (/ RM RT) RT) RT)) (* PR RJ)))) RT)) ((-1*)
+     (/ (- (- (/ (+ RM RT) (/ RM -0.5774790649794177))
+         ((-1*) (+ (- RT -0.3372998718940823) (+ W
+             RJ)))) (* W W)) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ (+ RT (* PR (+ W W))) (+ RJ (+ W RJ))))
+     (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- (+ (+ RM RT) (+
+     (- RJ (+ W W)) RT)) ((-1*) (/ (- RJ (/ RM
+     RT)) RT))) RO) RT))) ((-1*) (/ (- (* (- (+
+     RT RJ) ((-1*) (- (+ (- -0.5314945358175787
+     PR) (+ (- RJ (+ W W)) RT)) W))) W) RO) (*
+     PR RM)))) ((-1*) (/ ((-1*) (+ (+ RT (+ RM
+     RT)) (+ (+ RM RT) (- W RO)))) (* PR (- (-
+     RT RO) (+ -0.31548715759408186 (- (- RJ (+
+     (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))))))))))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (+ (+ RM RT) (- W RO)) RT)
+         ((-1*) RJ)) (- -0.5314945358175787 PR)) (+
+         (- RJ (+ W W)) RT)) (* PR RJ)))) RT)) ((-1*)
+     (/ (- (- (/ (- (/ (+ (- (- (* W W) (- -0.5314945358175787
+         PR)) (/ RM RT)) (+ W RJ)) PR) (- RJ (+ (-
+         RJ (/ RM RT)) RT))) (/ RM -0.5774790649794177))
+         ((-1*) (+ (- RT -0.3372998718940823) (+ W
+             RJ)))) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ (+ RT (+ RJ (+ W RJ))) (+ RM RT))) (*
+     PR (- (- RT RO) (+ -0.31548715759408186 (-
+     (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*) (+
+     (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (- (- (/ (- (/
+     (+ RJ RT) PR) ((-1*) (- RJ (- -0.5314945358175787
+     PR)))) (* W W)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ)))) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))) RO) RT))) ((-1*) (/ (- (* (-
+     (+ RT RJ) ((-1*) (- (+ (+ RM RT) (+ (+ RM
+     RT) RT)) ((-1*) (+ RJ PR))))) W) RO) (* PR
+     RM)))) ((-1*) (/ ((-1*) (+ (- RJ (+ (- RJ
+     (/ RM RT)) RT)) (+ RJ (+ ((-1*) (/ (- (-
+     (* W W) (- -0.5314945358175787 PR)) RO) RT))
+     (+ RJ (+ (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*)
+         W) (/ RM PR))) (+ W RJ))))))) (* PR (- (-
+     RT RO) (+ -0.31548715759408186 (- (- RJ (+
+     (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))))))))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (+ (+ RM PR) (- W RO)) RT)
+         ((-1*) RJ)) RJ) (+ (+ (- (* W W) (- -0.5314945358175787
+         PR)) (+ (- RJ -0.3372998718940823) RT)) RT))
+         (* PR RJ)))) RT)) ((-1*) (/ (- (- (/ (* (-
+     (+ RT RJ) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ)))) W) (/ RM -0.5774790649794177))
+     ((-1*) (+ (- RT -0.3372998718940823) (+ W
+         RJ)))) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ RM (+ RJ (+ (- (/ (+ (+ (+ RM RT) (- W
+         RO)) RT) ((-1*) RJ)) (- -0.5314945358175787
+         PR)) RJ)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+     (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+         (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (+ (+ RM RT) (+ (- RT -0.3372998718940823)
+         (+ W RJ))) RT) ((-1*) RJ)) (- -0.5314945358175787
+         PR)) (+ (+ (- RT (+ RM RT)) (+ (* W W) RT))
+         RT)) (* PR RJ)))) RT)) ((-1*) (/ (- (- RT
+     -0.3372998718940823) RO) (* PR RM)))) ((-1*)
+     (/ ((-1*) (+ (+ RT (+ RM (- (- (+ (+ (+ W
+         (- -0.5314945358175787 PR)) (+ RJ PR)) (+
+         ((-1*) W) (/ RM PR))) ((-1*) (+ (+ RT (-
+         RT (/ RM RT))) (+ RJ (+ W RJ))))) RO))) (+
+         RJ (+ W RJ)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (+ (- RJ (/ RM RT)) RT) (+ (- RJ (+
+         W W)) RT)) (* PR RJ)))) RT)) ((-1*) (/ (-
+     (- (/ (- (- (+ (- (* W W) (+ (- RT -0.3372998718940823)
+         (+ W RJ))) (+ (- RJ (+ W W)) RT)) ((-1*)
+         (- -0.5314945358175787 PR))) ((-1*) (- (/
+         (- (* W W) ((-1*) (/ RJ W))) RT) ((-1*) (+
+         (- RT -0.3372998718940823) (+ W RJ))))))
+         (/ RM -0.5774790649794177)) ((-1*) (+ (-
+         RT -0.3372998718940823) (+ W RJ)))) RO) (*
+     PR RM)))) ((-1*) (/ ((-1*) (+ (+ RT (+ RM
+     (+ RJ RT))) (+ RJ (+ W RJ)))) (* PR (- (-
+     RT RO) (+ -0.31548715759408186 (- (- RJ (+
+     (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))))))))))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ (+ W W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (+ (+ RM RT) (- W RO)) RT)
+         (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W) (/
+             RM PR)))) (- -0.5314945358175787 PR)) (+
+         (- RJ (+ W W)) RT)) (* PR RJ)))) RT)) ((-1*)
+     (/ (- (- (/ (- (/ (+ RJ RT) PR) PR) (/ RM
+         -0.5774790649794177)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W (+ RJ PR))))) RO) (* PR RM)))) ((-1*)
+     (/ ((-1*) (+ (+ RT (+ RM (+ (+ RM RT) (/
+         RM PR)))) (+ RJ (+ W RJ)))) (* PR (- (- RT
+         RO) (+ -0.31548715759408186 (- (- RJ (+ (-
+         RJ (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (- -0.5314945358175787 PR)
+         RT) ((-1*) RJ)) (- -0.5314945358175787 PR))
+         (+ (+ (- (* W W) (- -0.5314945358175787 PR))
+             (+ (- RJ (+ W W)) RT)) RT)) (* PR RJ))))
+     RT)) ((-1*) (/ (- (- (* PR RM) ((-1*) (+
+     (* W W) (- (+ (- RT -0.3372998718940823)
+     (+ W RJ)) (+ (/ RM -0.5774790649794177) (+
+     W RJ)))))) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ RM (+ RJ (+ W RJ)))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ (+ W W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (+ (/ RM PR) (- W RO)) RT)
+         ((-1*) RJ)) (- -0.5314945358175787 PR)) (+
+         (- RJ (+ W W)) RT)) (* PR RJ)))) RT)) ((-1*)
+     (/ (- (- (/ (- (/ ((-1*) (+ (+ W RJ) (+ RJ
+         PR))) PR) ((-1*) (/ RJ W))) (/ RM -0.5774790649794177))
+         ((-1*) (+ (- RT -0.3372998718940823) (+ W
+             (+ (- RJ (+ W W)) (+ RJ (+ (- RT -0.3372998718940823)
+                 (+ W RJ)))))))) RO) (* PR RM)))) ((-1*) (/
+     ((-1*) (+ (+ RT (+ RM (+ RJ (- -0.5314945358175787
+         PR)))) (+ RJ (+ W RJ)))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (- -0.5314945358175787 PR)
+         RT) ((-1*) (/ RJ W))) (/ RM RT)) (+ (+ (-
+         RJ (/ RM RT)) RT) RT)) (* PR RJ)))) RT))
+     ((-1*) (/ (- (- (+ (- RJ (+ W W)) RT) ((-1*)
+         (+ (- RT -0.3372998718940823) (+ W RJ))))
+         RO) (* PR RM)))) ((-1*) (/ ((-1*) (+ RM (+
+     RJ (+ W RJ)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+     (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+         (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (+ (- -0.5314945358175787 PR)
+         RT) ((-1*) RJ)) (- -0.5314945358175787 PR))
+         (+ (+ (- (* W W) (- -0.5314945358175787 PR))
+             (+ (- RJ (+ W W)) RT)) RT)) (* PR RJ))))
+     RT)) ((-1*) (/ (+ RT (- (- RT (- -0.5314945358175787
+     PR)) (+ (+ RM RT) (+ (- RJ (- -0.5314945358175787
+     PR)) RT)))) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ RM (+ RJ (+ W RJ)))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ (/ ((-1*)
+     (+ RM RT)) ((-1*) (/ (- (- RT (- RT RO))
+     RO) RT))) (/ RM PR))) ((-1*) (- (- (- (+
+     (- (* W W) (- -0.5314945358175787 PR)) (+
+     (- RJ (+ W W)) RT)) (- W RO)) ((-1*) (/ (-
+     (* (- (+ RT RJ) ((-1*) (- (+ (+ RM RT) (+
+         RT RT)) ((-1*) (- (* W W) (- -0.5314945358175787
+         PR)))))) W) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ (+ RT (+ RM RT)) (- (/ (- (/ (+ RJ RT)
+         PR) ((-1*) (/ RJ W))) (/ RM -0.5774790649794177))
+         ((-1*) (+ (* W W) (- (- -0.5314945358175787
+             PR) (+ (/ RM -0.5774790649794177) (+ W RJ))))))))
+     (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (- -0.5314945358175787 PR) ((-1*)
+         RJ)) (- -0.5314945358175787 PR)) (+ (+ (-
+         (* W (* W W)) (- -0.5314945358175787 PR))
+         (+ (- RJ (+ W W)) RT)) RT)) (* PR RJ))))
+     RT)) ((-1*) (/ (- (- (/ (- (/ (* PR RJ) PR)
+     (- RJ (/ RM RT))) ((-1*) W)) ((-1*) (+ (+
+     -0.31548715759408186 (- (- RJ (+ (- RJ (/
+     RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))) (+ W RJ)))) RO) (* PR RM))))
+     ((-1*) (/ ((-1*) (+ (+ RT (* PR (- (- RT
+         RO) (+ -0.31548715759408186 (- (- RJ (+ (-
+         RJ (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ)))))))) (+ RJ (+ W RJ)))) (* PR (-
+         (- RT RO) (+ -0.31548715759408186 (- (- RJ
+         (+ (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT
+         -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (/ (- W RO) ((-1*) RJ)) (+ W RJ))
+         (+ (- RJ (+ W W)) RT)) (* PR RJ)))) RT))
+     ((-1*) (/ (- (- (/ (- (/ (+ RJ RT) PR) RM)
+         (* W W)) ((-1*) (+ (- (/ (- (- RJ (/ RM RT))
+         ((-1*) (/ RJ W))) (- (- RT -0.3372998718940823)
+         RO)) -0.3372998718940823) (+ (+ RM RT) (-
+         W RO))))) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ (+ RT (+ RM (+ RJ (- -0.5314945358175787
+         PR)))) (+ RJ (/ (+ (- (/ (+ (+ (+ RM RT)
+         (- W RO)) RT) ((-1*) RJ)) (- RJ (/ RM RT)))
+         (+ (- RJ (+ W W)) RT)) (* PR RJ))))) (* PR
+     (- (- RT RO) (+ -0.31548715759408186 (- (-
+         RJ (+ (- RJ (/ RM RT)) RT)) ((-1*) (+ (-
+         RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ ((-1*)
+     (/ (+ (- (+ (- RT -0.3372998718940823) (+
+         W RJ)) (- RJ (/ RM RT))) (+ (- RJ (+ W W))
+         RT)) (* PR RJ)))) RT)) ((-1*) (/ (- (- (/
+     (- (- (+ (/ (+ (- RJ (+ W RJ)) RT) RT) (+
+         (- RJ (+ W W)) RT)) ((-1*) (/ (- (* W W)
+         (- -0.5314945358175787 PR)) RT))) ((-1*)
+         (- ((-1*) (+ (- RT -0.3372998718940823) (+
+             W RJ))) ((-1*) (+ (- RT -0.3372998718940823)
+             (+ W RJ)))))) (/ RM -0.5774790649794177))
+     ((-1*) (+ (- RT -0.3372998718940823) (+ W
+         RJ)))) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ (+ RT (+ RM (+ (- (/ (+ (+ (+ RM RT) (-
+         W RO)) RT) RO) (+ (+ RM RT) (- W RO))) (+
+         (- RJ (+ W W)) RT)))) (+ RJ (+ W RJ)))) (*
+     PR (- (- RT RO) (+ -0.31548715759408186 (-
+     (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*) (+
+     (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ W (+ RJ PR)) (+ ((-1*) W) (/ RM
+     PR))) ((-1*) (- (- (+ (- (* W W) (- -0.5314945358175787
+     PR)) (+ (- RJ ((-1*) (/ (+ (- (/ (+ (+ (+
+     RM RT) (+ (- RT -0.3372998718940823) (+ W
+     RJ))) RT) ((-1*) RJ)) (- -0.5314945358175787
+     PR)) (+ (+ (- RT (- -0.5314945358175787 PR))
+     (+ (- (* W (* PR RM)) (- -0.5314945358175787
+         PR)) (+ (- RJ (+ W W)) RT))) RT)) (* PR RJ))))
+     RT)) ((-1*) (/ (- (- RT -0.3372998718940823)
+     RO) (* PR RM)))) ((-1*) (/ ((-1*) (+ (+ RT
+     (+ RM (- (- (+ (+ (+ W (- -0.5314945358175787
+         (+ RJ RT))) (+ RJ PR)) (+ ((-1*) W) (/ RM
+         (+ W RJ)))) ((-1*) (/ RM RT))) RO))) (+ RJ
+     (+ W RJ)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+     (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+         (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ (/ ((-1*)
+     (+ (+ RT (+ (- (- RJ (+ (- RJ (/ RM RT))
+         RT)) ((-1*) (+ ((-1*) W) (- (/ (+ (* W W)
+         RT) (+ (- RJ (/ RM RT)) RT)) (- -0.5314945358175787
+         (+ W RJ)))))) RT)) (+ RJ (- -0.5314945358175787
+         PR)))) (* PR (- (- RT RO) (+ -0.31548715759408186
+     (+ RJ (+ (- RT -0.3372998718940823) (+ W
+         RJ))))))) (/ RM PR))) ((-1*) (- (- (- (+
+     (- (/ (+ (- RJ (/ RM RT)) RT) ((-1*) RJ))
+         (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (+ RJ (/ (+ RJ RT) PR))
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     ((-1*) RJ))) W) RO) (* PR RM)))) ((-1*) (/
+     ((-1*) (+ (+ RT (+ RM RT)) (+ (- (- RT RO)
+         (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+             (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+             (+ W RJ)))))) RT))) (* PR (- (- RT RO) (+
+     -0.31548715759408186 (- (- RJ (+ (- RJ (/
+     RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))))))))))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ (/ ((-1*)
+     (+ (- RJ ((-1*) (/ (+ (- (+ (- (* W W) (-
+         -0.5314945358175787 PR)) (- (+ (+ RM RT)
+         (+ RT RT)) ((-1*) (- (* W W) (- -0.5314945358175787
+         PR))))) ((-1*) (/ (- (+ W W) RO) RT))) (-
+         -0.5314945358175787 PR)) (* PR RJ)))) RT))
+     (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (* PR RM)) ((-1*) (+ RJ PR)))))))
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (+ RJ (+ RM (+ (+ RT (-
+     (+ (+ W W) (/ RM PR)) ((-1*) (+ (- RT -0.3372998718940823)
+     (+ W RJ))))) (+ RJ (+ W RJ))))) RT))) ((-1*)
+     (/ (- (* (- (- RJ (+ W W)) ((-1*) (- (+ (+
+         RM RT) (+ RT RT)) ((-1*) (- (* W W) (- -0.5314945358175787
+         PR)))))) W) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ (+ RT (+ RM RT)) (* PR (- (- RT RO) -0.5314945358175787))))
+     (* PR (- (- RT RO) (+ -0.31548715759408186
+         (- (- RJ (+ (- RJ (/ RM RT)) RT)) ((-1*)
+             (+ (- RT -0.3372998718940823) (+ W RJ))))))))))))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ (/ (- RJ
+     (+ (- RJ (/ RM RT)) RT)) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (+ (+
+         RM RT) RT) RT)) ((-1*) (+ RJ PR))))))) (/
+     RM PR))) ((-1*) (- (- (- (+ (- (* W W) (-
+     -0.5314945358175787 PR)) (+ (- RJ (+ W W))
+     RT)) ((-1*) (/ (+ RJ (+ RM RT)) RT))) ((-1*)
+     (/ (- (* (- (+ RT RJ) ((-1*) (- (+ (+ RM
+         RT) (+ RT RT)) ((-1*) (- (* W W) (- -0.5314945358175787
+         PR)))))) W) RO) (* PR RM)))) ((-1*) (/ ((-1*)
+     (+ W (* PR (+ W RJ)))) (* PR (- (- RT RO)
+     (+ -0.31548715759408186 (- (- RJ (+ (- RJ
+         (/ RM RT)) RT)) ((-1*) (+ (- RT -0.3372998718940823)
+         (+ W RJ))))))))))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=5110.0 Adjusted=1.9565642731363725E-4 Hits=0
+Tree 0:
+ (- (+ (+ (/ RM RT) (+ RJ PR)) (+ ((-1*) W)
+     (/ RM PR))) ((-1*) (- (- (- (+ (- (* W W)
+     (- -0.5314945358175787 PR)) (+ (- RJ (+ W
+     W)) RT)) ((-1*) (/ (- (- RT (+ RM RT)) RO)
+     RT))) ((-1*) (/ (- (* (- (+ RT RJ) ((-1*)
+     (+ (- RT -0.3372998718940823) (+ W RJ))))
+     W) RO) (* PR RM)))) ((-1*) (/ ((-1*) (+ (+
+     RT (+ RM RT)) (+ RJ (+ RM RT)))) (* PR (-
+     (- RT RO) (+ -0.31548715759408186 (- (- RJ
+     (+ (- RJ (/ RM RT)) RT)) ((-1*) (+ (- RT
+     -0.3372998718940823) (+ W RJ))))))))))))

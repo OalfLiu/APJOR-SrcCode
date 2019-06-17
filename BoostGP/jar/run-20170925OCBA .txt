@@ -1,0 +1,1 @@
+java -jar OCBAGP.jar -from app/JSP/OCBA_GP_DJSP_ERC.params -jobs=100 -p stat.file=/log/Result_500IND_50Gen_EA.stat -p stat.child.0.file=/log/Details_500IND_50Gen_EA.stat -p pop.subpop.0.size=500 -p generations=50 -p jobs=50

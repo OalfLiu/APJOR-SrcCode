@@ -1,0 +1,8 @@
+Number of Subpopulations: i1|
+Subpopulation Number: i0|
+Number of Individuals: i1|
+Individual Number: i0|
+Evaluated: T
+Fitness: d4667173131750896406|10818.471168810076|d0|0.0|i1|d4607182418800017408|1.0|
+Tree 0:
+ (div (- (ifte (div (- M_procTime M_util) (* M_capUtil M_capUtil)) (* (- R_TWT M_qWait) (- R_TP M_procTime)) (+ (max M_procTime R_TWT) (ifte M_setup M_qWait R_TP))) (+ (- (+ M_util M_util) (* R_TWT M_capUtil)) (ifte (max M_util M_bSize) (ifte M_capUtil R_TP M_qWait) (* M_setup M_qWait)))) (* (div (- (div R_TP M_qLen) (+ R_TP M_util)) (* (+ R_TWT M_bSize) (div R_WFT R_TWT))) (+ (- (- M_qLen M_util) (* R_WFT M_capUtil)) (ifte (- M_capUtil R_TP) (max R_TWT M_bSize) (- M_qLen M_util)))))

@@ -1,0 +1,120 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = /simple.params
+
+seed.0 = 16800
+seed.1 = 16801
+seed.2 = 16802
+seed.3 = 16803
+seed.4 = 16804
+seed.5 = 16805
+seed.6 = 16806
+seed.7 = 16807
+seed.8 = 16808
+seed.9 = 16809
+seed.10 = 16810
+seed.11 = 16811
+seed.12 = 16812
+seed.13 = 16813
+seed.14 = 16814
+seed.15 = 16815
+
+pop.subpop.0.file = \\subpopulation.txt
+
+
+
+#pop.subpop.0.size = 1000
+generations = 3
+
+#stat = ec.simple.SimpleStatistics
+stat = ec.IJPE2013EA.GAFinalEvaluationStatistics
+#stat = ec.app.JSP.ExtendFinalEvaluationStatistics
+stat.do-per-generation-description = true
+stat.file = /log/Result_Evaluation.stat
+stat.fileEx = /log/allRules.log
+ 
+breed.elite.0 = 0.25
+# default config of BestSelection
+select.best.n-fraction=0.25
+select.best.size = 7
+select.best.pick-worst = false
+
+pop.subpop.PRDecryptor=0
+pop.subpop.0.fix=0
+
+pop.subpop.0.species		= ec.vector.IntegerVectorSpecies
+pop.subpop.0.species.ind	= ec.vector.IntegerVectorIndividual
+pop.subpop.0.species.fitness 	= ec.gp.koza.KozaFitness
+
+
+
+# Pipeline
+pop.subpop.0.species.pipe = ec.vector.breed.VectorMutationPipeline
+pop.subpop.0.species.pipe.source.0 = ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.source.0 = ec.select.BestSelection 
+pop.subpop.0.species.pipe.source.0.source.1 = ec.select.BestSelection 
+
+parent.1 = /NPsubregion.params
+
+pop.subpop.0.species.crossover-type	= any
+pop.subpop.0.species.crossover-prob = 0.5
+
+pop.subpop.0.species.mutation-type	= reset
+pop.subpop.0.species.mutation-prob	= 0.05
+
+pop.subpop.0.species.min-gene	= 0
+pop.subpop.0.species.max-gene = 8
+
+pop.subpop.0.species.genome-size	= 81
+pop.subpop.0.species.num-segments = 2
+pop.subpop.0.species.segment-type = start
+pop.subpop.0.species.segment.0.start = 0
+pop.subpop.0.species.segment.1.start = 9
+pop.subpop.0.species.segment-type = end
+pop.subpop.0.species.segment.0.end = 8
+pop.subpop.0.species.segment.1.end = 80
+
+#######################gene range of 9 batch rules
+pop.subpop.0.species.segment.0.min-gene	= 0
+pop.subpop.0.species.segment.0.max-gene = 9	
+
+#######################gene range of 58 sequencing rules
+pop.subpop.0.species.segment.1.min-gene	= 0
+pop.subpop.0.species.segment.1.max-gene = 24	
+
+
+
+
+eval.problem            = ec.IJPE2013EA.IJPE2013EA_CDJSP
+
+eval.problem.Normalization = 0 
+eval.problem.Simulation.Replications = 1
+eval.problem.Simulation.Seed = 1000
+eval.problem.Simulation.Objective = 4 
+#This is type of objective, default is mean, other type is min, max, sum
+eval.problem.Simulation.ObjectiveType = mean 
+eval.problem.Simulation.UniqueSeed = true
+
+eval.problem.Simulation.NumofMachines=1
+eval.problem.Simulation.UtilizationLevel=0.9
+
+
+
+
+
+
+
+doFinalEvaluation = false
+evaluation.UseOldSample = true
+evaluation.Seed = 1357924680
+#evaluation.Evaluator = EA,IDOCBA,OCBA,KG
+evaluation.Evaluator = EA
+evaluation.Replications = 1
+evaluation.Threshold = 30
+evaluation.InitialReplications = 10
+evaluation.IterationBudget = 5
+evaluation.IDOCBA.WarmupBudget = 5
+evaluation.IDOCBA.FirstStageBudget = 5
+evaluation.IDOCBA.IndifferenceDelta = 0.01

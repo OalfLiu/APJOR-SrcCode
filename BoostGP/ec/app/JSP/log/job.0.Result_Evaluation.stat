@@ -1,0 +1,127 @@
+------------Basic Parameters Setting------------
+  InitialSeed=666003
+  Current Job=0
+  PopulationSize=500
+------------Simulation Setting in Generation------------
+  Replications=1
+  SimulationSeed=33434
+  Normalization=0
+  eval.Simulation.IterationBudget=5
+  eval.problem.Simulation.Objective=11
+  eval.problem.Simulation.ObjectiveType=mean
+  eval.problem.Simulation.UniqueSeed=true
+  eval.Simulation.WarmupBudget=10
+  eval.Simulation.WarmupBudget_Pre=8
+  eval.Simulation.FirstStageBudget=0
+  eval.Simulation.SecondStageBudget=10
+  eval.Simulation.IndifferenceDelta=0.45
+  eval=ec.simple.SimpleEvaluator
+  doFinalEvaluation=false
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.07552437023419988 Adjusted=-0.07552437023419988 Hits=0
+Tree 0:
+PT * ((WINQ * ((WINQ - WINQ) - (NPT * PT))) - NPT)
+InGenEvaluation:-0.07552437023419988
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.07119967742767329 Adjusted=-0.07119967742767329 Hits=0
+Tree 0:
+((((NPT * PT) - (NPT - PT)) * ((PT * PT) - div(WINQ, WINQ))) * (((NPT * PT) * div(PT, NPT)) - (div(NPT, NPT) * (NPT - PT)))) * ((((NPT - NPT) - (PT - WINQ)) * (div(PT, WINQ) * (WINQ - WINQ))) - (((WINQ * WINQ) - (WINQ * (WINQ - (WINQ - (NPT - PT))))) - ((WINQ - NPT) * (WINQ - WINQ))))
+InGenEvaluation:-0.07119967742767329
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.08307953568754756 Adjusted=-0.08307953568754756 Hits=0
+Tree 0:
+div(((div(NPT, PT) * (WINQ - NPT)) - ((NPT - NPT) * div(PT, WINQ))) - (div(NPT - NPT, div(PT, NPT)) - ((WINQ - PT) - (PT - NPT))), (((PT * (NPT - NPT)) - NPT) * (((PT * PT) - (WINQ * WINQ)) * PT)) * div(div(PT, NPT) - (PT * PT), (PT - PT) * (NPT - PT)))
+InGenEvaluation:-0.08307953568754756
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.08307953568754756 Adjusted=-0.08307953568754756 Hits=0
+Tree 0:
+div(((div(NPT, PT) * (WINQ - NPT)) - ((NPT - NPT) * div(PT, WINQ))) - (div(NPT - NPT, div(PT, NPT)) - ((WINQ - PT) - (PT - NPT))), (((PT * (NPT - NPT)) - NPT) * (((PT * PT) - (WINQ * WINQ)) * PT)) * div((WINQ - (NPT - ((NPT * WINQ) * (PT - NPT)))) - (PT * PT), (PT - PT) * (NPT - PT)))
+InGenEvaluation:-0.08307953568754756
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.09492025328213784 Adjusted=-0.09492025328213784 Hits=0
+Tree 0:
+((((NPT * PT) - (NPT - PT)) * ((PT * PT) - div(WINQ, WINQ))) * (((NPT * PT) * div(PT, NPT)) - (div(NPT, NPT) * (NPT - PT)))) * (((NPT - (PT - WINQ)) * div(NPT, WINQ)) - (((WINQ * WINQ) - (NPT - NPT)) - (((NPT - div(PT - PT, div(NPT, PT))) - (NPT - div(NPT, PT * PT))) * (WINQ - WINQ))))
+InGenEvaluation:-0.09492025328213784
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.10039249769621664 Adjusted=-0.10039249769621664 Hits=0
+Tree 0:
+((((NPT * PT) - (NPT - PT)) * ((PT * PT) - div(WINQ, WINQ))) * (((NPT * PT) * div(PT, NPT)) - (div(NPT, NPT) * (NPT - PT)))) * (((NPT - (PT - WINQ)) * div(NPT, WINQ)) - (((WINQ * WINQ) - (NPT - NPT)) - (((NPT - div(PT - PT, div(NPT, PT))) - (NPT - div(NPT, PT * PT))) * div(div(NPT, NPT), WINQ))))
+InGenEvaluation:-0.10039249769621664
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.09855412362281128 Adjusted=-0.09855412362281128 Hits=0
+Tree 0:
+((((NPT * PT) - (NPT - PT)) * ((PT * PT) - div(WINQ, WINQ))) * (((NPT * PT) * div(PT, NPT)) - (div(NPT, NPT) * (NPT - PT)))) * (((WINQ - (PT - WINQ)) * div(NPT, WINQ)) - (((WINQ * WINQ) - (NPT - NPT)) - (((NPT - div(PT - PT, div(NPT, PT))) - (div((WINQ - WINQ) - PT, PT) - (NPT - PT))) * (WINQ - WINQ))))
+InGenEvaluation:-0.09855412362281128
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.10178128784386929 Adjusted=-0.10178128784386929 Hits=0
+Tree 0:
+div((((PT - NPT) - (div(PT, (div(WINQ, NPT) - NPT) - ((WINQ * WINQ) * ((NPT - WINQ) * (WINQ - NPT)))) - WINQ)) * ((PT * NPT) * (PT * PT))) - (((WINQ * PT) * (NPT * NPT)) - div(WINQ, WINQ)), div(div(PT, PT) - (NPT - WINQ), ((((WINQ - PT) - (PT - WINQ)) * PT) - PT) * (PT - WINQ)) - div((NPT - PT) * (PT - NPT), (WINQ * WINQ) * (WINQ - WINQ)))
+InGenEvaluation:-0.10178128784386929
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.11222448597889952 Adjusted=-0.11222448597889952 Hits=0
+Tree 0:
+div((((PT - NPT) - (div((NPT - (NPT - NPT)) - (div(PT, WINQ) - NPT), (div((PT * (WINQ - NPT)) - (NPT - PT), ((NPT * PT) - (PT - PT)) - NPT) - WINQ) * WINQ) - WINQ)) * ((PT * NPT) * (PT * PT))) - (NPT - PT), div(NPT - div(NPT, WINQ), ((((WINQ - PT) - ((((WINQ * NPT) * (WINQ * WINQ)) - (NPT * PT)) * div(WINQ, PT))) * PT) - PT) * (PT - WINQ)) - div((NPT - PT) * (PT - NPT), (WINQ * WINQ) * (WINQ - WINQ)))
+InGenEvaluation:-0.11222448597889952
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.1078923448060234 Adjusted=-0.1078923448060234 Hits=0
+Tree 0:
+div((((PT - NPT) - (div(NPT, (NPT * ((WINQ * NPT) * (WINQ - (NPT - PT)))) * WINQ) - WINQ)) * ((PT * NPT) * (PT * PT))) - (((WINQ * PT) * (NPT * NPT)) - PT), div(WINQ, ((((WINQ - PT) - (PT - WINQ)) * PT) - PT) * (PT - WINQ)) - div((NPT - PT) * (PT - NPT), WINQ * (WINQ - WINQ)))
+InGenEvaluation:-0.1078923448060234
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.11406287643209272 Adjusted=-0.11406287643209272 Hits=0
+Tree 0:
+div((((PT - NPT) - (div((NPT - (NPT - NPT)) - (div(PT, WINQ) - NPT), (div(NPT, WINQ) - WINQ) * WINQ) - WINQ)) * ((PT * NPT) * (PT * PT))) - (((WINQ * PT) * (NPT * NPT)) - PT), div(PT, ((((WINQ - PT) - (NPT - WINQ)) * PT) - PT) * (PT - WINQ)) - div((NPT - (WINQ - WINQ)) * (PT - NPT), (WINQ * WINQ) * (WINQ - WINQ)))
+InGenEvaluation:-0.11406287643209272
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=-0.11476310052997994 Adjusted=-0.11476310052997994 Hits=0
+Tree 0:
+div((((PT - NPT) - (div((NPT - (NPT - NPT)) - (div(PT, WINQ) - NPT), (div(NPT, WINQ) - WINQ) * WINQ) - WINQ)) * ((PT * NPT) * (PT * PT))) - (((WINQ * (WINQ - div(WINQ - NPT, NPT))) * PT) - ((WINQ - PT) - NPT)), div(WINQ, ((((WINQ - PT) - (PT - WINQ)) * PT) - PT) * (PT - WINQ)) - div((((NPT - WINQ) - (WINQ * NPT)) * (NPT - WINQ)) * div(NPT, WINQ), (WINQ * WINQ) * (WINQ - WINQ)))
+InGenEvaluation:-0.11476310052997994

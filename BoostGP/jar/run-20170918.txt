@@ -1,0 +1,1 @@
+java -jar OCBAGP_20170918.jar -from app/JSP/TestDJSPP.params -p eval.problem.Normalization=1 -p stat.file=/log/Result_100IND_1Gen_N+D.stat -p stat.child.0.file=/log/Details_100IND_1Gen_N+D.stat -p pop.subpop.0.size=100 -p generations=1 -p jobs=20 

@@ -1,0 +1,10 @@
+/CrossoverPipeline.class
+/FullBuilder.class
+/GPKozaDefaults.class
+/GrowBuilder.class
+/HalfBuilder.class
+/KozaBuilder.class
+/KozaFitness.class
+/KozaNodeSelector.class
+/KozaShortStatistics.class
+/MutationPipeline.class

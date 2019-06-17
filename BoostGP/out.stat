@@ -1,0 +1,33 @@
+Current Parameters setting:
+InitialSeed=16800
+Current Job=0
+PopulationSize=1024
+Replications=1
+SimulationSeed=1000
+Normalization=0
+eval.problem.Simulation.UniqueSeed=false
+doFinalEvaluation=false
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: -20000.0
+6 8 5 3 6 5 7 7 7 18 41 29 40 27 35 42 3 26 48 56 4 57 29 17 37 40 5 16 38 20 27 10 29 51 12 35 33 34 0 44 11 27 38 47 25 46 47 42 7 25 24 46 24 19 10 19 38 29 47 53 26 0 30 14 30 0 10 44 38 51 2 57 54 15 32 55 15 23 55 8 37
+Number of Subpopulations: i1|
+Subpopulation Number: i0|
+Number of Individuals: i2|
+Individual Number: i0|
+Evaluated: T
+Fitness: d-4552145264760061952|-20000.0|
+i81|i6|i8|i5|i3|i6|i5|i7|i7|i7|i18|i41|i29|i40|i27|i35|i42|i3|i26|i48|i56|i4|i57|i29|i17|i37|i40|i5|i16|i38|i20|i27|i10|i29|i51|i12|i35|i33|i34|i0|i44|i11|i27|i38|i47|i25|i46|i47|i42|i7|i25|i24|i46|i24|i19|i10|i19|i38|i29|i47|i53|i26|i0|i30|i14|i30|i0|i10|i44|i38|i51|i2|i57|i54|i15|i32|i55|i15|i23|i55|i8|i37|
+Individual Number: i1|
+Evaluated: T
+Fitness: d-4552145264760061952|-20000.0|
+i81|i6|i5|i6|i0|i0|i8|i4|i7|i0|i4|i49|i9|i16|i1|i5|i24|i1|i19|i16|i9|i26|i9|i25|i37|i28|i29|i1|i46|i34|i21|i21|i16|i16|i49|i19|i48|i26|i45|i8|i26|i47|i55|i44|i52|i54|i55|i44|i37|i29|i13|i14|i23|i45|i55|i53|i54|i1|i7|i3|i11|i7|i42|i51|i17|i10|i34|i27|i57|i52|i40|i11|i26|i53|i0|i30|i37|i9|i21|i34|i37|i26|
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: T
+Fitness: -20000.0
+6 8 5 3 6 5 7 7 7 18 41 29 40 27 35 42 3 26 48 56 4 57 29 17 37 40 5 16 38 20 27 10 29 51 12 35 33 34 0 44 11 27 38 47 25 46 47 42 7 25 24 46 24 19 10 19 38 29 47 53 26 0 30 14 30 0 10 44 38 51 2 57 54 15 32 55 15 23 55 8 37

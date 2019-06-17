@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Built-By: Patron
+Build-Jdk: 1.8.0_201
+Specification-Title: jasima
+Specification-Version: 1.3.0
+Specification-Vendor: BIBA – Bremer Institut für Produktion und Logi
+ stik GmbH
+Implementation-Title: jasima
+Implementation-Version: 1.3.0
+Implementation-Vendor-Id: com.googlecode.jasima
+Implementation-Vendor: BIBA – Bremer Institut für Produktion und Log
+ istik GmbH
+Main-Class: jasima.core.run.ConsoleRunner
+Created-By: Maven Integration for Eclipse
+

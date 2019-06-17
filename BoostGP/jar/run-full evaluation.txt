@@ -1,0 +1,8 @@
+java -jar EvaluationGP.jar -from app/JSP/MultipleEvaluation_TSIDOCBA.params -p eval=ec.app.JSP.TSIDOCBAEvaluator -p jobs=50 -p pop.subpop.0.size=500 -p generations=50 -p eval=ec.simple.SimpleEvaluator -p eval.problem.Simulation.Replications=20 -p doFinalEvaluation=false -p eval.problem.Simulation.UniqueSeed=false
+
+
+java -jar EvaluationGP.jar -from app/JSP/MultipleEvaluation_TSIDOCBA_Tardiness.params 
+
+java -jar EvaluationGP.jar -from app/JSP/MultipleEvaluation_TSIDOCBA_Tardiness.params -p eval=ec.simple.SimpleEvaluator -p eval.problem.Simulation.Replications=20
+
+java -Xmx1024m -jar EvaluationGP.jar -from app/JSP/MultipleEvaluation_TSIDOCBA_Tardiness.params -p eval=ec.app.JSP.OCBAEvaluator -p eval.Simulation.FirstStageBudget=10

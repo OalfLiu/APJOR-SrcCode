@@ -1,0 +1,161 @@
+------------Basic Parameters Setting------------
+  InitialSeed=16800
+  Current Job=0
+  PopulationSize=1000
+------------Simulation Setting in Generation------------
+  Replications=1
+  SimulationSeed=8848
+  Normalization=0
+  eval.Simulation.IterationBudget=5
+  eval.problem.Simulation.Objective=4
+  eval.problem.Simulation.ObjectiveType=mean
+  eval.problem.Simulation.UniqueSeed=false
+  eval.Simulation.WarmupBudget=5
+  eval.Simulation.WarmupBudget_Pre=3
+  eval.Simulation.FirstStageBudget=15
+  eval.Simulation.SecondStageBudget=0
+  eval.Simulation.IndifferenceDelta=0.2
+  eval=ec.simple.SimpleEvaluator
+  doFinalEvaluation=false
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10818.471168810076 Adjusted=10818.471168810076 Hits=0
+Tree 0:
+div(ifte(div(M_procTime - M_util, M_capUtil * M_capUtil), (R_TWT - M_qWait) * (R_TP - M_procTime), max(M_procTime, R_TWT) + ifte(M_setup, M_qWait, R_TP)) - (((M_util + M_util) - (R_TWT * M_capUtil)) + ifte(max(M_util, M_bSize), ifte(M_capUtil, R_TP, M_qWait), M_setup * M_qWait)), div(div(R_TP, M_qLen) - (R_TP + M_util), (R_TWT + M_bSize) * div(R_WFT, R_TWT)) * (((M_qLen - M_util) - (R_WFT * M_capUtil)) + ifte(M_capUtil - R_TP, max(R_TWT, M_bSize), M_qLen - M_util)))
+InGenEvaluation:10818.471168810076
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10802.888468690902 Adjusted=10802.888468690902 Hits=0
+Tree 0:
+((((R_TWT * R_TP) * (M_capUtil - M_setup)) * (max(R_TP, M_setup) * div(M_procTime, R_TP))) - div(max(R_WFT, M_procTime) + max(M_setup, R_TWT), (((M_util - M_procTime) + max(M_setup, M_setup)) - (div(R_TP, R_TWT) + ifte(M_procTime, M_qLen, M_capUtil))) * (M_qLen + R_TWT))) * ifte(div(div(M_capUtil, M_bSize) - (R_WFT - M_util), ifte(div(M_capUtil, M_bSize), div(R_TWT, M_setup), max(M_setup, M_util))), ((M_capUtil - M_bSize) * ifte(M_setup, M_bSize, M_qLen)) - ifte(ifte(M_capUtil, R_WFT, M_qWait), M_util + M_qLen, R_TP * R_WFT), ((M_procTime - M_setup) - div(R_TP, R_TWT)) - div(M_util - M_qLen, div(M_util, M_util)))
+InGenEvaluation:10802.888468690902
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10781.431192034592 Adjusted=10781.431192034592 Hits=0
+Tree 0:
+ifte(M_qWait, M_setup, M_procTime) - (max(div(M_setup, M_qLen) - max(R_WFT, R_TP), ifte(R_WFT, M_bSize, M_bSize) * div(M_qLen, R_WFT)) * ifte((R_TWT * M_qWait) - ifte(M_bSize, M_procTime, R_TP), (M_capUtil - M_qLen) + ifte(M_capUtil, M_capUtil, R_WFT), ifte(M_bSize, R_TWT, R_TP) + div(M_util, R_WFT)))
+InGenEvaluation:10781.431192034592
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10749.926592017946 Adjusted=10749.926592017946 Hits=0
+Tree 0:
+div(div(M_capUtil * R_TP, max(M_util * M_procTime, M_procTime + M_procTime)), max(max(ifte(R_WFT, M_util, R_TWT), M_setup * R_TP), div(M_qWait, M_util) + (M_util * M_qWait)))
+InGenEvaluation:10749.926592017946
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10748.273478264276 Adjusted=10748.273478264276 Hits=0
+Tree 0:
+div(div(M_capUtil * R_TP, max(M_util * M_procTime, M_procTime + M_procTime)), max(max(div(M_qLen, M_qWait), M_setup * R_TP), div(M_qWait, M_util) + (M_util * M_qWait)))
+InGenEvaluation:10748.273478264276
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10684.978984995829 Adjusted=10684.978984995829 Hits=0
+Tree 0:
+div(div(ifte(M_qLen, M_qLen, M_util) - ifte(M_bSize, M_setup, M_procTime), ifte(M_qLen + M_setup, M_util * R_TWT, ifte(M_setup, M_util, R_TP))), ifte(M_procTime - M_util, max(max(M_util, M_bSize), R_WFT + R_TWT), M_util - M_bSize))
+InGenEvaluation:10684.978984995829
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10581.217521985394 Adjusted=10581.217521985394 Hits=0
+Tree 0:
+(max(ifte(ifte(M_setup, M_qLen, R_WFT), div(M_setup, M_util), max(R_TP, R_TP)), div(div(M_capUtil, R_TWT), M_qWait * M_procTime)) * (ifte(M_util * R_TWT, M_capUtil + R_WFT, M_setup - M_qLen) * ((R_TP * M_bSize) * (max(R_TP, M_setup) * div(M_procTime, R_TP))))) - ((M_bSize - M_procTime) - ifte(M_capUtil, M_setup, M_qLen))
+InGenEvaluation:10581.217521985394
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10581.217521985394 Adjusted=10581.217521985394 Hits=0
+Tree 0:
+div(ifte(M_qWait + M_setup, div((M_setup - M_capUtil) - (M_bSize - R_WFT), (M_util * R_TP) - (M_qWait + M_setup)), div(M_util + M_qLen, R_TP - M_util) + (div(M_bSize, M_qWait) + ifte(M_procTime, M_procTime, M_qLen))), M_util * R_TWT)
+InGenEvaluation:10581.217521985394
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10581.217521985394 Adjusted=10581.217521985394 Hits=0
+Tree 0:
+(max(ifte(ifte(M_setup, M_qLen, R_WFT), div(M_setup, M_util), max(R_TP, R_TP)), div(div(M_capUtil, R_TWT), M_qWait * M_procTime)) * (ifte(M_util * R_TWT, M_capUtil + R_WFT, M_setup - M_qLen) * ((R_TP * M_bSize) * div(M_bSize, M_util)))) - (((M_capUtil - R_WFT) - max(M_setup, M_qWait)) - ifte(M_capUtil, M_setup, M_qLen))
+InGenEvaluation:10581.217521985394
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10581.010413530483 Adjusted=10581.010413530483 Hits=0
+Tree 0:
+(max(ifte(ifte(M_setup, M_qLen, R_WFT), div(M_setup, M_util), max(R_TP, R_TP)), div(div(M_capUtil, R_TWT), M_qWait * M_procTime)) * (ifte(M_util * R_TWT, M_capUtil + R_WFT, M_setup - M_qLen) * ((R_TP * M_bSize) * (div(M_qWait, M_util) + (M_util * M_qWait))))) - (((M_capUtil - R_WFT) - max(M_setup, M_qWait)) - ifte(M_capUtil, M_setup, M_qLen))
+InGenEvaluation:10581.010413530483
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10581.01041353048 Adjusted=10581.01041353048 Hits=0
+Tree 0:
+(max(ifte(ifte(M_setup, M_qLen, R_WFT), div(M_setup, M_util), max(R_TP, R_TP)), div(div(M_capUtil, R_TWT), M_qWait * M_procTime)) * (ifte((M_qWait - M_bSize) + (M_qLen - M_util), max(M_capUtil, M_qWait), M_setup - M_qLen) * ((R_TP * M_bSize) * (max(R_TP, M_setup) * div(M_procTime, R_TP))))) - (((M_capUtil - R_WFT) - max(M_setup, M_qWait)) - ifte(M_capUtil, M_setup, M_qLen))
+InGenEvaluation:10581.01041353048
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10581.01041353048 Adjusted=10581.01041353048 Hits=0
+Tree 0:
+div(ifte(max(max(div(M_qWait, R_TWT), (R_WFT - M_procTime) * (M_qWait + M_bSize)), (R_TWT - (((div(M_bSize, M_util) * max(M_setup, R_TWT)) - (ifte(M_qLen, R_WFT, M_qWait) + (M_qLen * M_qLen))) - max(ifte(M_util * R_TWT, M_bSize - R_TWT, M_setup - M_qLen), max(M_qWait, M_setup) - div(ifte(R_TP - R_TWT, M_setup - M_qWait, M_setup * M_qLen), (ifte(div(M_bSize, M_util), div(M_qLen, M_qWait), ifte(M_qWait, M_procTime, M_qWait)) - (M_qLen * M_qLen)) + (M_util + M_setup))))) + (M_bSize - R_WFT)), div((M_setup - M_capUtil) - (M_bSize - R_WFT), div(M_capUtil, R_TWT) - ((M_util * M_qLen) * M_util)), div(M_util + M_qLen, R_TP - M_util) + ((M_procTime - M_util) + ifte(M_procTime, M_procTime, M_qLen))), max(R_TP, R_TP) * max(M_qWait, R_TP + M_capUtil))
+InGenEvaluation:10581.01041353048
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10580.959250761845 Adjusted=10580.959250761845 Hits=0
+Tree 0:
+(max(ifte((M_util * M_qLen) * (R_TP - R_TWT), div(M_setup, M_util), max(R_TP, R_TP)), div(div(M_capUtil, R_TWT), max(div(M_capUtil + R_WFT, max(M_qLen * R_WFT, M_util + R_TWT)), div(M_qWait, M_util) + (M_util * M_qWait)) * M_procTime)) * (ifte(M_util * R_TWT, max(M_util, M_util), M_setup - M_qLen) * ((R_TP * M_bSize) * (max(R_TP, M_setup) * div(M_procTime, R_TP))))) - (((M_capUtil - R_WFT) - max(M_setup, M_qWait)) - ifte(M_capUtil, M_setup, M_qLen))
+InGenEvaluation:10580.959250761845
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10580.959250761845 Adjusted=10580.959250761845 Hits=0
+Tree 0:
+(max(ifte((M_util * M_qLen) * (R_TP - R_TWT), div(M_setup, M_util), max(R_TP, R_TP)), div(div(M_capUtil, R_TWT), max(div(M_capUtil + R_WFT, max(M_qLen * R_WFT, M_util + R_TWT)), div(M_qWait, M_util) + (M_util * M_qWait)) * M_procTime)) * (ifte(M_util * R_TWT, max(M_util, M_util), M_setup - M_qLen) * ((R_TP * M_bSize) * (max(R_TP, M_setup) * div(M_procTime, R_TP))))) - (((M_capUtil - R_WFT) - max(M_setup, M_qWait)) - ifte(M_capUtil, M_setup, M_qLen))
+InGenEvaluation:10580.959250761845
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10580.959250761845 Adjusted=10580.959250761845 Hits=0
+Tree 0:
+(max(ifte(ifte(M_setup, M_qLen, R_WFT), div(max(ifte(ifte(M_setup, M_qLen, R_WFT), div(M_setup, M_util), max(R_TP, R_TP)), div(div(M_capUtil, R_TWT), ifte(M_util * R_TWT, div(M_procTime, R_TP), M_setup - M_qLen) * ((R_TP * M_bSize) * (max(R_TP, M_setup) * div(M_procTime, R_TP))))), M_util), max(R_TP, R_TP)), div(div(M_capUtil, R_TWT), M_qWait * M_procTime)) * (ifte(M_util * R_TWT, max(R_TP, M_setup) * div(M_procTime, R_TP), M_setup - M_qLen) * ((R_TP * M_bSize) * (max(R_TP, M_setup) * div(M_procTime, R_TP))))) - (((M_capUtil - R_WFT) - div(M_procTime, M_procTime)) - ifte(M_capUtil, M_setup, M_qLen))
+InGenEvaluation:10580.959250761845
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10818.471168810076 Adjusted=10818.471168810076 Hits=0
+Tree 0:
+div(ifte(div(M_procTime - M_util, M_capUtil * M_capUtil), (R_TWT - M_qWait) * (R_TP - M_procTime), max(M_procTime, R_TWT) + ifte(M_setup, M_qWait, R_TP)) - (((M_util + M_util) - (R_TWT * M_capUtil)) + ifte(max(M_util, M_bSize), ifte(M_capUtil, R_TP, M_qWait), M_setup * M_qWait)), div(div(R_TP, M_qLen) - (R_TP + M_util), (R_TWT + M_bSize) * div(R_WFT, R_TWT)) * (((M_qLen - M_util) - (R_WFT * M_capUtil)) + ifte(M_capUtil - R_TP, max(R_TWT, M_bSize), M_qLen - M_util)))
